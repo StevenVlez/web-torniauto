@@ -1,0 +1,656 @@
+body {
+	font-family: arial;
+}
+
+
+header {
+	padding: 20px;
+	background: #E3E3E3;
+	color: black;
+		
+				}
+					nav {
+					max width: 500px;
+					padding: 20px;
+					background:#8b0000;
+					color: white;
+					flex-direction: column;					
+
+				}
+				
+				nav ul {
+					 list-style: none;
+					 text-decoration: none; 
+				}
+				
+				nav ul li a {
+					display: block;
+					width: 100%;
+					padding: 5px 10px;
+					margin: 5px 0;
+					text-decoration: none;
+					color: white
+				
+				}
+				
+				nav ul li a:hover {
+					background: #F9F9F9;
+					color: black;
+				}
+				
+				footer {
+					padding: 20px;
+					background: black;
+					color: white;
+				}
+				
+				main {
+					text-align:center;
+					font-weight: bold;
+					font-size: 1.2em;
+					width: 100%;
+					padding: 20px;
+					background: #F9F9F9;
+					margin-bottom: 50px;
+				}
+				
+				main form {
+					max-width: 800px;
+					font-weight: arial;
+					font-size: .8em;
+				}
+				
+				.wrapper {
+					display: flex;
+					width: 2000px; 
+					height: 800px;
+					
+					
+				} 
+				.input-wrapper {
+					
+					display: flex;
+					text-align:left;
+				}
+				.input-wrapper label{
+					width: 40%;
+					margin: 5px 0;
+				}
+				.input-wrapper input{
+					width: 100%;
+					margin: 5px 0;
+				}
+				
+				.buttons {
+					padding-top: 50px;
+					display:flex;
+					justify-content: space-between;
+					height: 25px;
+					margin-bottom: 100px;	
+				}
+
+				
+
+
+				.cards{
+					display:flex;				
+					}
+				.cards2{
+					display:flex;
+				}
+
+	.tarjeta{
+		display:flex;
+		background-color: 	#40E0D0;
+		flex-direction: column;
+		width: 370px; 
+		height: 250px;
+		border: 1px solid lightgray;
+		box-shadow: 2px 2px 8px 4px #000000b0;
+		border: radius 15px;
+		font-family: sans-serif;
+		text-align:center;
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 30px;
+	}
+	.titulo{
+		font-size: 24px;
+		padding: 10px 10px 0 10px;;
+	}
+	.cuerpo{
+		padding: 10px;
+		}
+	.btn{
+	background: #40E0D0;
+	border-radius:0 0 10px 10px;
+		padding: 10px;
+		text-align:center;
+	
+	}
+	.btn a{
+		text-decoration: none;
+		color: #ffffff;
+		}
+	.btn a:after {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		content: ""
+		}
+
+		.tarjeta2{
+			display:flex;
+			background-color: 	#BA55D3;
+			flex-direction:column;
+			width: 370px; 
+			height: 250px;
+			border: 1px solid lightgray;
+			box-shadow: 2px 2px 8px 4px #000000b0;
+			border: radius 15px;
+			font-family: sans-serif;
+			text-align:center;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-bottom: 30px;
+		}
+		.titulo2{
+			font-size: 24px;
+			padding: 10px 10px 0 10px;;
+		}
+		.cuerpo2{
+			padding: 10px;
+			}
+		.pie2{
+		background:	#BA55D3;
+		border-radius:0 0 10px 10px;
+			padding: 10px;
+			text-align:center;
+		
+		}
+		.pie2 a{
+			text-decoration: none;
+			color: white;
+			}
+			.pie2 a:after {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				z-index: 1;
+				content: ""
+				}
+	
+				.tarjeta3{
+					display:flex;
+					background-color: #FFA500;
+					flex-direction:column;
+					width: 370px; 
+					height: 250px;
+					border: 1px solid lightgray;
+					box-shadow: 2px 2px 8px 4px #000000b0;
+					border: radius 15px;
+					font-family: sans-serif;
+					text-align:center;
+					margin-left: 30px;
+					margin-right: 30px;
+					margin-bottom: 30px;
+				}
+				.titulo3{
+					font-size: 24px;
+					padding: 10px 10px 0 10px;;
+				}
+				.cuerpo3{
+					padding: 10px;
+					}
+				.pie3{
+				background: 	#FFA500;
+				border-radius:0 0 10px 10px;
+					padding: 10px;
+					text-align:center;
+				
+				}
+				.pie3 a{
+					text-decoration: none;
+					color: white;
+					}
+					.pie3 a:after {
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+						z-index: 1;
+						content: ""
+						}
+
+						.tarjeta4{
+							display:flex;
+							background-color: 	#3CB371;
+							flex-direction:column;
+							width: 370px; 
+							height: 250px;
+							border: 1px solid lightgray;
+							box-shadow: 2px 2px 8px 4px #000000b0;
+							border: radius 15px;
+							font-family: sans-serif;
+							text-align:center;
+							margin-left: 30px;
+							margin-right: 30px;
+							margin-bottom: 30px;
+						}
+						.titulo4{
+							font-size: 24px;
+							padding: 10px 10px 0 10px;;
+						}
+						.cuerpo4{
+							padding: 10px;
+							}
+						.pie4{
+						background: 	#3CB371;
+						border-radius:0 0 10px 10px;
+							padding: 10px;
+							text-align:center;
+						
+						}
+						.pie4 a{
+							text-decoration: none;
+							color: white;
+							}
+							.pie4 a:after {
+								position: absolute;
+								top: 0;
+								right: 0;
+								bottom: 0;
+								left: 0;
+								z-index: 1;
+								content: ""
+								}
+								.tarjeta5{
+									display:flex;
+									background-color: #e02525;
+									flex-direction:column;
+									width: 370px; 
+									height: 250px;
+									border: 1px solid lightgray;
+									box-shadow: 2px 2px 8px 4px #000000b0;
+									border: radius 15px;
+									font-family: sans-serif;
+									text-align:center;
+									margin-left: 30px;
+									margin-right: 30px;
+									margin-bottom: 30px;
+								}
+								.titulo5{
+									font-size: 24px;
+									padding: 10px 10px 0 10px;;
+								}
+								.cuerpo5{
+									padding: 10px;
+									}
+								.pie5{
+								background: #e02525;
+								border-radius:0 0 10px 10px;
+									padding: 10px;
+									text-align:center;
+								
+								}
+								.pie5 a{
+									text-decoration: none;
+									color: white;
+									}
+									.pie5 a:after {
+										position: absolute;
+										top: 0;
+										right: 0;
+										bottom: 0;
+										left: 0;
+										z-index: 1;
+										content: ""
+										}
+										.tarjeta6{
+											display:flex;
+											background-color: #0076fd;
+											flex-direction:column;
+											width: 370px; 
+											height: 250px;
+											border: 1px solid lightgray;
+											box-shadow: 2px 2px 8px 4px #000000b0;
+											border: radius 15px;
+											font-family: sans-serif;
+											text-align:center;
+											margin-left: 30px;
+											margin-right: 30px;
+											margin-bottom: 30px;
+										}
+										.titulo6{
+											font-size: 24px;
+											padding: 10px 10px 0 10px;;
+										}
+										.cuerpo6{
+											padding: 10px;
+											}
+										.pie6{
+										background: 	#0076fd;
+										border-radius:0 0 10px 10px;
+											padding: 10px;
+											text-align:center;
+										
+										}
+										.pie6 a{
+											text-decoration: none;
+											color: white;
+											}
+											.pie6 a:after {
+												position: absolute;
+												top: 0;
+												right: 0;
+												bottom: 0;
+												left: 0;
+												z-index: 1;
+												content: ""
+												}
+/*consulta proveedor*/ 
+
+.container-table{
+	width: 1600px;
+	height: 700px;
+	padding: 20px;
+	background: white;
+	margin: 10px;
+	box-shadow: 2px 2px 8px 4px #000000b0;
+	display:grid;
+	grid-template-columns: 300px 200px 200px 200px 200px 200px;
+	grid-auto-rows: 60px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+
+}
+.table__title {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.3em;
+	font-weight: bold;
+	
+
+}
+
+.table__header, .table__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.table__header{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.table__item{ 
+	font-size: 1.0em;
+}
+
+/*editar proveedor*/
+
+.edit_prov{
+	position:absolute;
+	right: 7%;
+	Color: #8b0000;
+	text-decoration: none;
+}
+
+.table_edit{
+	width: 1600px;
+	height: 700px;
+	background: white;
+	padding: 20px;
+	margin: 10px;
+	box-shadow: 2px 2px 8px 4px #000000b0;
+	display:grid;
+	grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+	grid-auto-rows: 60px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.table__title-edit {
+	grid-column-start: 1;
+	grid-column-end: 8;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.3em;
+	font-weight: bold;
+
+}
+
+.table__input{
+	display: block;
+	padding-left: 10px;
+
+}
+
+.act {
+	background: #8b0000;
+	color: white;
+	border: none;
+	padding: 0px;
+	width:100px;
+	height: 40px;
+	font-size: 1.1em;
+	margin: 15px auto;
+	cursor: pointer;
+}
+
+/* Consulta productos */
+
+.container-table2{
+	width: 1600px;
+	height: 700px;
+	background: white;
+	margin: 10px;
+	box-shadow: 2px 2px 8px 4px #000000b0;
+	display:grid;
+	grid-template-columns: 300px 200px 200px 200px 200px;
+	grid-auto-rows: 60px;
+	padding: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.table__title2{
+	grid-column-start: 1;
+	grid-column-end: 6;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.3em;
+	font-weight: bold;
+}
+/*editar proveedor*/
+
+.edit_prov{
+	position:absolute;
+	right: 7%;
+	Color: #8b0000;
+	text-decoration: none;
+}
+
+.table_edit2{
+	width: 1600px;
+	height: 700px;
+	background: white;
+	padding: 20px;
+	margin: 10px;
+	box-shadow: 2px 2px 8px 4px #000000b0;
+	display:grid;
+	grid-template-columns: 200px 200px 200px 200px 200px 200px;
+	grid-auto-rows: 60px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.table__title-edit2 {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.3em;
+	font-weight: bold;
+
+}
+
+.table__input{
+	display: block;
+	padding-left: 10px;
+
+}
+
+.act {
+	background: #8b0000;
+	color: white;
+	border: none;
+	padding: 0px;
+	width:100px;
+	height: 40px;
+	font-size: 1.1em;
+	margin: 15px auto;
+	cursor: pointer;
+}
+
+/* Consulta bodegas */
+
+.container-table3{
+	width: 1600px;
+	height: 700px;
+	background: white;
+	margin: 10px;
+	box-shadow: 2px 2px 8px 4px #000000b0;
+	display:grid;
+	grid-template-columns: 300px 200px 200px 200px;
+	grid-auto-rows: 60px;
+	padding: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.table__title3{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.3em;
+	font-weight: bold;
+}
+
+/*  ESQUEMAS PRINCIPALES  */
+.form-proveedor{
+	text-align: left;
+	border: 1px solid #E1E1E1;
+	border-radius: 5px;
+	padding: 20px;
+	width: 600px;
+	height: 260px;
+	position:static;
+	top: 50%;
+	left: 50%;
+	box-shadow: 2px 2px 8px 4px #000000b0;
+	background-color: #f5f5f5; 
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.form-products{
+	text-align: left;
+	border: 1px solid #E1E1E1;
+	border-radius: 5px;
+	padding: 20px;
+	width: 600px;
+	height: 250px;
+	position:static;
+	top: 50%;
+	left: 50%;
+	box-shadow: 2px 2px 8px 4px #000000b0;
+	background-color: #f5f5f5; 
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.form-bodega {
+	text-align: left;
+	border: 1px solid #E1E1E1;
+	border-radius: 5px;
+	padding: 20px;
+	width: 600px;
+	height: 200px;
+	position:static;
+	top: 50%;
+	left: 50%;
+	box-shadow: 2px 2px 8px 4px #000000b0;
+	background-color: #f5f5f5; 
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.form-entrada {
+	text-align: left;
+	border: 1px solid #E1E1E1;
+	border-radius: 5px;
+	padding: 20px;
+	width: 600px;
+	height: 200px;
+	position:static;
+	top: 50%;
+	left: 50%;
+	box-shadow: 2px 2px 8px 4px #000000b0;
+	background-color: #f5f5f5; 
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.form-salida {
+	text-align: left;
+	border: 1px solid #E1E1E1;
+	border-radius: 5px;
+	padding: 20px;
+	width: 600px;
+	height: 200px;
+	position:static;
+	top: 50%;
+	left: 50%;
+	box-shadow: 2px 2px 8px 4px #000000b0;
+	background-color: #f5f5f5; 
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.form-user {
+	text-align: left;
+	border: 1px solid #E1E1E1;
+	border-radius: 5px;
+	padding: 20px;
+	width: 600px;
+	height: 200px;
+	position:static;
+	top: 50%;
+	left: 50%;
+	box-shadow: 2px 2px 8px 4px #000000b0;
+	background-color: #f5f5f5; 
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
